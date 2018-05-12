@@ -1,5 +1,5 @@
 # Dockerfile for quassel client on fedora
-FROM fedora:latest
+FROM fedora:27
 
 MAINTAINER Jason Joyce
 
