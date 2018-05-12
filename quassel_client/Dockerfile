@@ -8,5 +8,5 @@ RUN dnf -y install quassel-client && \
 
 ADD ./quassel-run.sh /usr/local/sbin/quassel-run.sh
 
-CMD ["/usr/local/sbin/quassel-run.sh"]
+ENTRYPOINT ["/usr/local/sbin/quassel-run.sh"]
 
